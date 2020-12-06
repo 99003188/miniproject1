@@ -45,3 +45,4 @@ void test_square(void) {
 void test_rectangle(void) {
   CU_ASSERT(20 == rectangle(10,2));
 }
+
