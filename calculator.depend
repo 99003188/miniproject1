@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1607237206 source:c:\testfolder\calculator\main.c
+	"calculator_operations.h"
+	<stdio.h>
+
+1607236435 c:\testfolder\calculator\inc\calculator_operations.h
+	<stdio.h>
+	<stdlib.h>
+
+1607237039 source:c:\testfolder\calculator\src\calculator_operations.c
+	<calculator_operations.h>
+
