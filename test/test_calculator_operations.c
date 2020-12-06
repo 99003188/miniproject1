@@ -39,9 +39,9 @@ int main() {
 
 //-------------------------------------------------------ARITHEMETIC OPERATIONS----------------------------------------------
 void test_square(void) {
-  CU_ASSERT(9.00 == square(3));
+  CU_ASSERT(9 == square(3));
 }
 
 void test_rectangle(void) {
-  CU_ASSERT(20.00 == rectangle(10,2));
+  CU_ASSERT(20 == rectangle(10,2));
 }
