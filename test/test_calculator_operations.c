@@ -18,10 +18,10 @@ int main() {
   CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
 /* Note: Do not edit END */
 
-  CU_add_test(suite, "TEST_SQUARE", test_square);
-  CU_add_test(suite, "TEST_SUBTRACT", test_rectangle);
-  CU_add_test(suite, "TEST_MULTIPLY", test_cone)
-  CU_add_test(suite, "TEST_DIVIDE", test_cylinder);
+  CU_add_test(suite, "square", test_square);
+  CU_add_test(suite, "rectangle", test_rectangle);
+  CU_add_test(suite, "cone", test_cone)
+  CU_add_test(suite, "cylinder", test_cylinder);
 
 
 /* Note: Do not edit START*/
@@ -39,18 +39,18 @@ int main() {
 
 //-------------------------------------------------------ARITHEMETIC OPERATIONS----------------------------------------------
 void test_square(void) {
-  CU_ASSERT_EQUAL(9.00 square(3));
+  CU_ASSERT_EQUAL(9.00 == square(3));
 }
 
 void test_rectangle(void) {
-  CU_ASSERT_EQUAL(20.00,rectangle(10,2));
+  CU_ASSERT_EQUAL(20.00 == rectangle(10,2));
 }
 
 void test_cone(void) {
-  CU_ASSERT_DOUBLE_EQUAL(18.84, cone(3,2));
+  CU_ASSERT_DOUBLE_EQUAL(18.84 == cone(3,2));
 }
 
 void test_cylinder(void) {
-  CU_ASSERT_DOUBLE_EQUAL(628.00,cylinder(10,2));
+  CU_ASSERT_DOUBLE_EQUAL(628.00 == cylinder(10,2));
 }
 
