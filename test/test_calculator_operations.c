@@ -39,18 +39,9 @@ int main() {
 
 //-------------------------------------------------------ARITHEMETIC OPERATIONS----------------------------------------------
 void test_square(void) {
-  CU_ASSERT_EQUAL(9.00 == square(3));
+  CU_ASSERT(9.00 == square(3));
 }
 
 void test_rectangle(void) {
-  CU_ASSERT_EQUAL(20.00 == rectangle(10,2));
+  CU_ASSERT(20.00 == rectangle(10,2));
 }
-
-void test_cone(void) {
-  CU_ASSERT_DOUBLE_EQUAL(18.84 == cone(3,2));
-}
-
-void test_cylinder(void) {
-  CU_ASSERT_DOUBLE_EQUAL(628.00 == cylinder(10,2));
-}
-
