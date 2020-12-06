@@ -3,7 +3,7 @@
 #include <CUnit/CUnit.h>
 
 #include "calculator_operations.h"
-#define PROJECT_NAME "calculator_operations"
+#define PROJECT_NAME "calculator"
 
 void test_square(void);
 void test_rectangle(void);
